@@ -43,3 +43,13 @@ export default (str) => {
   - [hexlet.io](https://hexlet.io/) (frontend-end)
   - [htmlacademy.ru](https://htmlacademy.ru/)
   - [udemy.com](https://www.udemy.com/course/webdeveloper/) (web developer)
+
+## English
+
+**My English level**: A2
+
+Courses:
+
+- [duolingo](https://ru.duolingo.com/)
+- [lingualeo](https://lingualeo.com/)
+- [Playlist English](https://www.youtube.com/channel/UC_3oKG5Szq-m6Xz-MjRZgpw)
