@@ -31,3 +31,15 @@ export default (str) => {
   return acc === 0;
 };
 ```
+
+## Experience
+
+[wheater app](https://shulhan93.github.io/weather/)
+
+## Education
+
+- Sukhoi State Technical University of Gomel
+- Courses:
+  - [hexlet.io](https://hexlet.io/) (frontend-end)
+  - [htmlacademy.ru](https://htmlacademy.ru/)
+  - [udemy.com](https://www.udemy.com/course/webdeveloper/) (web developer)
