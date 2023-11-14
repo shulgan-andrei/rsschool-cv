@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shulhan Andrei</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body class="page">
+    <div class="resume">
+      <sidebar class="resume__sidebar">
+        <div class="resume__photo">
+          <img src="./images/photo.jpg" alt="photo" />
+        </div>
+        <h1 class="resume__name">Andrei Shulhan</h1>
+        <div class="resume__label">frotend-developer</div>
+        <a href="https://t.me/shulhan" class="resume__telegram">
+          <svg
+            width="14"
+            height="14"
+            viewBox="0 0 14 14"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M11.8433 1.74089C11.6747 1.74822 11.52 1.7967 11.3841 1.85026C11.2586 1.8997 10.8077 2.08919 10.0898 2.3903C9.37196 2.69141 8.42069 3.09064 7.40674 3.51709C5.37883 4.37 3.09997 5.32941 1.93229 5.8208C1.89219 5.83751 1.72934 5.88736 1.54948 6.02474C1.3692 6.16244 1.16895 6.46127 1.16895 6.78809C1.16895 7.05172 1.30055 7.32023 1.45947 7.47396C1.61839 7.62769 1.77945 7.69956 1.91406 7.75309C2.30787 7.90992 3.52479 8.3959 4.05371 8.60758C4.239 9.16288 4.67421 10.4709 4.77604 10.7928H4.7749C4.85774 11.0548 4.93849 11.2256 5.05062 11.3682C5.10668 11.4394 5.17361 11.504 5.2557 11.555C5.28719 11.5746 5.32207 11.5898 5.3571 11.604C5.36198 11.6061 5.36701 11.6066 5.37191 11.6086L5.35824 11.6051C5.36839 11.6092 5.37751 11.6153 5.38786 11.6188C5.40472 11.6246 5.41642 11.6244 5.43913 11.6291C5.51905 11.6537 5.59882 11.6701 5.67269 11.6701C5.98979 11.6701 6.18424 11.498 6.18424 11.498L6.19678 11.4889L7.56624 10.3302L9.24333 11.8809C9.27332 11.9232 9.5131 12.2489 10.0693 12.2489C10.4007 12.2489 10.6639 12.086 10.8315 11.9139C10.9992 11.7418 11.1036 11.5658 11.1506 11.3271V11.3249V11.3237C11.1832 11.1543 12.7935 3.07161 12.7935 3.07161L12.79 3.08529C12.84 2.86225 12.8548 2.64656 12.7957 2.42676C12.7367 2.20695 12.5774 1.99245 12.3856 1.87988C12.1937 1.76732 12.0118 1.73355 11.8433 1.74089ZM11.6131 3.01807C11.5499 3.33563 10.1168 10.535 10.0238 11.0127L8.35807 9.47347C7.92872 9.07652 7.25922 9.06256 6.81315 9.43929L5.96322 10.1582L6.41667 8.38542C6.41667 8.38542 9.54482 5.219 9.73324 5.03467C9.8849 4.88708 9.91667 4.83535 9.91667 4.78402C9.91667 4.71577 9.88154 4.66667 9.80046 4.66667C9.72754 4.66667 9.62851 4.73654 9.57601 4.76921C8.90605 5.18689 6.03758 6.82163 4.64844 7.61182C4.59626 7.58057 4.54493 7.54814 4.48779 7.52523C4.03199 7.3428 3.15591 6.99157 2.64323 6.78695C3.85322 6.2777 5.92734 5.40505 7.85905 4.59261C8.87283 4.16623 9.82381 3.76664 10.541 3.46582C11.1464 3.21189 11.4622 3.08041 11.6131 3.01807ZM10.0055 11.097H10.0067L10.0055 11.1016C10.0065 11.0966 10.0049 11.1006 10.0055 11.097Z"
+              fill="#131313"
+              fill-opacity="0.72"
+            />
+          </svg>
+          @shulhan
+        </a>
+      </sidebar>
+      <main class="main">
+        <section class="section">
+          <h2 class="section__title">Summary</h2>
+          <p>
+            Hi, my name is Andrey Shulhan and I am a beginner front-end
+            developer. I want, with the help of your course, to structure the
+            training and, after my passion, to translate into a full-fledged
+            work.
+          </p>
+        </section>
+        <section class="section">
+          <h2 class="section__title">Skills</h2>
+          <ul class="skills">
+            <li class="skills__item">HTML</li>
+            <li class="skills__item">CSS, SASS</li>
+            <li class="skills__item">BEM</li>
+            <li class="skills__item">JS, React</li>
+          </ul>
+        </section>
+        <section class="section section__code">
+          <h2 class="section__title">Code examples</h2>
+          <pre>
+export default (str) => {
+let acc = 0;
+    for (let i = 0; i < str.length; i += 1) {
+      const symbol = str[i];
+      acc = symbol === '(' ? acc + 1 : acc - 1;
+      if (acc < 0) {
+        return false;
+      }
+    }
+    return acc === 0;
+  };
+            </pre
+          >
+        </section>
+        <section class="section section__experience">
+          <h2 class="section__title">Experience</h2>
+          <a
+            rel="noopener"
+            href="https://shulhan93.github.io/weather/"
+            target="_blank"
+          >
+            wheater app
+          </a>
+        </section>
+        <section class="section section__educaton">
+          <h2 class="section__title">Education</h2>
+          <ul>
+            <li>Sukhoi State Technical University of Gomel</li>
+          </ul>
+        </section>
+        <section class="section section__eng">
+          <h2 class="section__title">English</h2>
+          <p><b>My English level: </b>A2</p>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
