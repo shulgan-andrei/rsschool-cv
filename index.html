@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shulhan Andrei</title>
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/style.css">
   </head>
   <body class="page">
     <div class="resume">
-      <sidebar class="resume__sidebar">
+      <aside class="resume__sidebar">
         <div class="resume__photo">
-          <img src="./images/photo.jpg" alt="photo" />
+          <img src="./images/photo.jpg" alt="photo">
         </div>
         <h1 class="resume__name">Andrei Shulhan</h1>
         <div class="resume__label">frotend-developer</div>
@@ -30,7 +30,7 @@
           </svg>
           @shulhan
         </a>
-      </sidebar>
+      </aside>
       <main class="main">
         <section class="section">
           <h2 class="section__title">Summary</h2>
@@ -55,10 +55,10 @@
           <pre>
 export default (str) => {
 let acc = 0;
-    for (let i = 0; i < str.length; i += 1) {
+    for (let i = 0; i &lt; str.length; i += 1) {
       const symbol = str[i];
       acc = symbol === '(' ? acc + 1 : acc - 1;
-      if (acc < 0) {
+      if (acc &lt; 0) {
         return false;
       }
     }
